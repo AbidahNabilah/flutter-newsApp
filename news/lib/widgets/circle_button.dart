@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 class CircleButton extends StatelessWidget {
   final IconData icon;
   final Function onTap;
-  CircleButton({this.icon, this.onTap});
+  CircleButton({required this.icon, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: onTap,
+     
       borderRadius: BorderRadius.circular(25.0),
       child: Container(
         width: 50.0,

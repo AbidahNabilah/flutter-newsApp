@@ -7,7 +7,7 @@ import 'package:news_app/widgets/circle_button.dart';
 
 class ReadNewsView extends StatelessWidget {
   final News news;
-  ReadNewsView({this.news});
+  ReadNewsView({required this.news});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -132,7 +132,7 @@ class ReadNewsView extends StatelessWidget {
 class Status extends StatelessWidget {
   final IconData icon;
   final String total;
-  Status({this.icon, this.total});
+  Status({required this.icon, required this.total});
   @override
   Widget build(BuildContext context) {
     return Row(

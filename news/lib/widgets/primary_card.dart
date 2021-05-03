@@ -4,7 +4,7 @@ import 'package:news_app/constants.dart';
 
 class PrimaryCard extends StatelessWidget {
   final News news;
-  PrimaryCard({this.news});
+  PrimaryCard({required this.news});
 
   @override
   Widget build(BuildContext context) {

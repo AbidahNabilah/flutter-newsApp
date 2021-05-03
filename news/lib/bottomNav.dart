@@ -65,7 +65,7 @@ class NavBarItem {
   final String icon;
   final String activeIcon;
   final String title;
-  NavBarItem({this.icon, this.activeIcon, this.title});
+  NavBarItem({required this.icon, required this.activeIcon, required this.title});
 }
 
 List<NavBarItem> _navBarList = [

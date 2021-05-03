@@ -11,16 +11,16 @@ class News {
   final String estimate;
 
   News({
-    this.author,
-    this.content,
-    this.category,
-    this.estimate,
-    this.favorite,
-    this.image,
-    this.seen,
-    this.subtitle,
-    this.time,
-    this.title,
+    required this.author,
+    required this.content,
+    required this.category,
+    required this.estimate,
+    required this.favorite,
+    required this.image,
+    required this.seen,
+    required this.subtitle,
+    required this.time,
+    required this.title,
   });
 }
 
