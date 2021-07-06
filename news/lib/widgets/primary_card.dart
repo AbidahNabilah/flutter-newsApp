@@ -24,7 +24,7 @@ class PrimaryCard extends StatelessWidget {
                 backgroundColor: kGrey1,
               ),
               SizedBox(width: 10.0),
-              Text(news.category, style: kCategoryTitle)
+              Text(news.category.name, style: kCategoryTitle)
             ],
           ),
           SizedBox(height: 5.0),

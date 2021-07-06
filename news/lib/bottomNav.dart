@@ -52,7 +52,7 @@ class _BottomNavState extends State<BottomNav> {
                   e.activeIcon,
                   width: 24.0,
                 ),
-                title: Text(e.title),
+                label: e.title,
               ),
             )
             .toList(),

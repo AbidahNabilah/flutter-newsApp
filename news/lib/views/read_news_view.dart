@@ -8,6 +8,7 @@ import 'package:news_app/widgets/circle_button.dart';
 class ReadNewsView extends StatelessWidget {
   final News news;
   ReadNewsView({required this.news});
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -77,7 +78,7 @@ class ReadNewsView extends StatelessWidget {
                       ),
                       SizedBox(width: 6.0),
                       Text(
-                        news.category,
+                        news.category.name,
                         style: kCategoryTitle,
                       ),
                     ],
